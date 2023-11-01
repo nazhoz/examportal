@@ -1,0 +1,131 @@
+/* =================================ViewallTest=========================================== */
+
+.ViewallTest-Students {
+    background-color: #F6F6F6;
+  }
+  
+  .ViewallTest-Students:nth-child(odd) {
+    background-color: #FFFFFF;
+  }
+
+  .ViewAllTest-Table{
+    overflow-y: scroll;
+    max-height: 480px;
+    
+  }
+  .ViewAllTest-Table::-webkit-scrollbar{
+    width: 6px;
+  }
+  .ViewAllTest-Table::-webkit-scrollbar-thumb{
+    background-color: #bebebe;
+  }
+  .ViewAllTest-Table::-webkit-scrollbar-thumb:hover{
+    background-color: #888;
+  }
+  .View-All-Test-Tablediv{
+    /* padding: 25px; */
+    width: 1120px;
+    margin-left: 75px;
+    
+  }
+  .ViewAllTest-Table-head{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+/* ======================================upcomingTest=========================================== */
+
+.upcomingTest-Students {
+    background-color: #F6F6F6;
+  }
+  
+  .upcomingTest-Students:nth-child(odd) {
+    background-color: #FFFFFF;
+  }
+  .upcomingTest-Table{
+    overflow-y: scroll;
+    max-height: 480px;
+    
+  }
+  .upcomingTest-Table::-webkit-scrollbar{
+    width: 6px;
+  }
+  .upcomingTest-Table::-webkit-scrollbar-thumb{
+    background-color: #bebebe;
+  }
+  .upcomingTest-Table::-webkit-scrollbar-thumb:hover{
+    background-color: #888;
+  }
+  .upcoming-All-Test-Tablediv{
+    /* padding: 25px; */
+    width: 1000px;
+    /* margin-left: 75px; */
+  }
+  .UpcomingTakeTestStudent{
+    /* background-color: rgb(0, 0, 0); */
+    width: 700px;
+  }
+  .UcTakeTestStudents-main{
+    background: rgba(255, 255, 255, 0.5);
+    /* border-radius: 10px;  */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    
+  }
+  .UpcomingTest-Table-head{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* ====================================completed Test=============================================== */
+
+.completedTest-Students {
+  background-color: #F6F6F6;
+}
+
+.completedTest-Students:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+.completedTest-Table{
+  overflow-y: scroll;
+  max-height: 480px;
+  
+}
+.completedTest-Table::-webkit-scrollbar{
+  width: 6px;
+}
+.completedTest-Table::-webkit-scrollbar-thumb{
+  background-color: #bebebe;
+}
+.completedTest-Table::-webkit-scrollbar-thumb:hover{
+  background-color: #888;
+}
+.completed-Test-Tablediv{
+  /* padding: 25px; */
+  width: 800px;
+  /* margin-left: 75px; */
+}
+.completedTakeTestStudent{
+  /* background-color: rgb(0, 0, 0); */
+  width: 700px;
+}
+.completedTakeTestStudents-main{
+  background: rgba(255, 255, 255, 0.5);
+  /* border-radius: 10px;  */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  
+}
+.completedTest-Table-head{
+position: sticky;
+top: 0;
+z-index: 1;
+}
+.testresult-qus{
+  /* background-color: yellow; */
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

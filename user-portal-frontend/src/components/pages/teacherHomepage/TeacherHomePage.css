@@ -1,0 +1,29 @@
+.teachers-homepage{
+    background-color: yellow;
+    
+
+}
+.teachersHomepage-navbar{
+    background-color: tomato;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.teachers-Nav-Logo{
+    /* background-color: aqua; */
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.teachers-Nav-user{
+    /* background-color: aqua; */
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Teachers-Dashboard{
+    display: flex;
+}
